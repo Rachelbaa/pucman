@@ -1,0 +1,44 @@
+body {
+  background-color: black;
+  color:white;
+}
+
+.cell {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 1.5em;
+}
+
+.restart {
+  margin: auto;
+  display: none;
+  text-align: center;
+}
+
+.ghost{
+  border-radius: 100% 100% 0 0;
+  display: inline-block;
+  position: relative;
+}
+
+#pacman {
+  width: 1px;
+  height: 1px;
+  border: 12px solid rgb(248, 233, 28);
+  border-right-color: transparent;
+  border-radius: 50%;
+}
+
+.ArrowUp {
+  transform: rotate(270deg);
+}
+.ArrowDown {
+  transform: rotate(90deg);
+}
+.ArrowLeft {
+  transform: rotate(180deg);
+}
+.ArrowRight {
+  transform: rotate(0deg);
+}
